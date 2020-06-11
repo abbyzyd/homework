@@ -1,0 +1,2 @@
+尝试使用了Alexnet，vgg11_bn，vgg16_bn，resnet18等预训练并组合不同的batchsize，正则化方法和finetuning层数对cifar10进行训练
+结论：使用resnet18预训练模型，batchsize=500，param.requires_grad = true，训练效果比较理想，详见resnet18-bt500-requiredTrue.ipynb

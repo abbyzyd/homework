@@ -1,0 +1,5 @@
+1）基于pytorch实现L1和L2正则化
+2）torch.optim集成的优化器只有L2正则化方法，参数weight_decay，用于指定权值衰减率，相当于L2正则化中的λ参数
+3）为了实现L1正则化，需自定义正则化Regularization类
+
+结论：使用相同weight_decay，L2正则化的训练出来的模型性能比L1正则化的要好
