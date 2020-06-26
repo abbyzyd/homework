@@ -1,0 +1,1 @@
+本次作业分别使用了desennet，googlenet，squeezenet三个模型对cifar10数据集进行训练和评测，其中desennet模型和googlenet模型在测试集上的准确率均到达89%，效果相对理想，而squeezenet只有42%左右，效果相对较差。
